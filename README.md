@@ -9,4 +9,4 @@ I hope this can be a useful resource for working with and configuring projects i
 
 Additionally, collaboration is always welcome—whether through feedback, suggestions, or contributing new developments!
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Javier-Godon)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Javier-Godon)](https://github.com/anuraghazra/github-readme-stats)
