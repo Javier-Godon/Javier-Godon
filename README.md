@@ -45,7 +45,7 @@ There is a repository dedicated to deploying some of the services on Kubernetes:
 
 This repository demonstrates how to implement a CI/CD pipeline using Dagger, GitHub Actions, and ArgoCD, utilizing KCL as a configuration and policy language. It provides an example of how to integrate and combine all these technologies, making it easier to understand their use in a global context. 
 
-- **Dagger** simplifies the design of pipelines, enabling execution with any tool (Jenkins, GitHub Actions, Tekton, etc.) without requiring modifications or adaptations. You can even run them locally—yes, you can test them on your local machine! A program written in your favorite language abstracts away the tooling concerns, avoiding migration issues.  
+- **[Dagger](https://dagger.io/)** simplifies the design of pipelines, enabling execution with any tool (Jenkins, GitHub Actions, Tekton, etc.) without requiring modifications or adaptations. You can even run them locally—yes, you can test them on your local machine! A program written in your favorite language abstracts away the tooling concerns, avoiding migration issues.  
 
 - **KCL** replaces Helm/Kustomize, offering dynamic configurations ([KCL Documentation](https://www.kcl-lang.io/docs/user_docs/getting-started/intro)). For example, changing the tag of your image in the deployment repositories becomes straightforward and doesn't rely on any specific framework.
 
@@ -69,6 +69,19 @@ This section highlights some of the proofs of concept I’ve developed to explor
 
 - **[Java/Spring Boot](https://github.com/Javier-Godon/ddd-hexagonal-vertical-slice-cqrs-reactive-kubernetes)**  
   A proof of concept designed to experiment with different architectures and reactive programming styles. This project implements a simple Pokédex and includes instructions for running it locally. Additionally, it can be used to test the proposed CI/CD pipeline for a Java/Spring Boot project.
+
+### Guides
+
+#### Deploy Oracle Express on Ubuntu
+This repository provides a comprehensive guide on deploying Oracle Express on **Ubuntu 22.04**. It includes step-by-step instructions and configurations to ensure a smooth setup process.
+
+- **Repository**: [Oracle Express Ubuntu](https://github.com/Javier-Godon/oracle_express_ubuntu)
+- **Highlights**:
+  - Prepares your Ubuntu environment for Oracle Express.
+  - Covers common troubleshooting tips.
+  - Offers scripts for automating parts of the setup.
+
+Whether you're exploring Oracle Express or need a reliable setup reference, this guide is designed to save time and effort.  
 
 
 
