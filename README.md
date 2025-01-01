@@ -61,7 +61,7 @@ This section highlights some of the proofs of concept I’ve developed to explor
 - **[ERP System in Go](https://github.com/Javier-Godon/erp-back)**  
   A proof of concept demonstrating how to implement an ERP system using Go. This project explores different architectures and frameworks within the Go ecosystem.
 
-- **Video Streaming with Apache Kafka**  
+- **[Video Streaming with Apache Kafka](https://github.com/Javier-Godon/multi-video-streaming-with-kafka)**  
   This proof of concept tackles the challenge of streaming videos from multiple sources continuously, ensuring reliable delivery. The solution includes three Python-based components:  
   - [**Video Server**](https://github.com/Javier-Godon/kafka-video-server-python): Splits videos into chunks and sends them to Apache Kafka.  
   - [**Consumer with MongoDB**](https://github.com/Javier-Godon/kafka-video-consumer-mongodb-python): Receives chunks and stores them as JSON documents in a MongoDB database, leveraging MongoDB's flexible design.  
