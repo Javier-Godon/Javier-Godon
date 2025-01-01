@@ -1,15 +1,15 @@
-### About Me ➡️
+## About Me ➡️
 
 As someone passionate about programming since childhood, I love dedicating part of my free time to exploring new languages, architectures, and fields within software development.
 In my repositories, you will find projects in various programming languages, proof-of-concept implementations, and configurations for continuous delivery.
 
 
-### My Goals 
+## My Goals 
 I hope this can be a useful resource for working with and configuring projects in various programming languages or platform engineering tools. My repositories are intended to serve as a reference for anyone facing challenges while building with these technologies.
 
 Additionally, collaboration is always welcome—whether through feedback, suggestions, or contributing new developments!
 
-### Technologies I Use
+## Technologies I Use
 
 #### Platforms and Tools
 <img src="./images/crossplane-logo.png" alt="Dagger Logo" width="20" height="20"> ![Crossplane](https://img.shields.io/badge/Crossplane-Managed%20Resources-blue)
@@ -39,7 +39,7 @@ Additionally, collaboration is always welcome—whether through feedback, sugges
 <img src="./images/questdb-logo.png" alt="Questdb Logo" width="20" height="20">![Questdb](https://img.shields.io/badge/Questdb-time%20series-purple)
 <img src="./images/elk-logo.png" alt="Questdb Logo" width="20" height="20">![Elasticsearch](https://img.shields.io/badge/Elasticsearch-search%20and%20analytics%20engine-blue)
 
-### How to use it 📘
+## How to use it 📘
 
 There is a repository dedicated to deploying some of the services on Kubernetes: [Cluster Continuous Delivery](https://github.com/Javier-Godon/cluster-continuous-delivery). 
 
@@ -54,7 +54,7 @@ Although I use GitHub Actions for my CI/CD, the repository includes a fully func
 This repository also contains all the infrastructure necessary for various projects to run on Kubernetes. It is deployed using [Crossplane](https://www.crossplane.io/), and you'll find the required manifests and CRDs for each deployment.
 
 
-### Proofs of Concept
+## Proofs of Concept
 
 This section highlights some of the proofs of concept I’ve developed to explore different architectures, frameworks, and use cases.
 
@@ -70,7 +70,16 @@ This section highlights some of the proofs of concept I’ve developed to explor
 - **[Java/Spring Boot](https://github.com/Javier-Godon/ddd-hexagonal-vertical-slice-cqrs-reactive-kubernetes)**  
   A proof of concept designed to experiment with different architectures and reactive programming styles. This project implements a simple Pokédex and includes instructions for running it locally. Additionally, it can be used to test the proposed CI/CD pipeline for a Java/Spring Boot project.
 
-### Guides
+## Observability in Kubernetes with OpenTelemetry
+
+I have several repositories dedicated to observability in Kubernetes using [OpenTelemetry](https://opentelemetry.io/):  
+
+- [Observability with OpenTelemetry and ELK](https://github.com/Javier-Godon/observability-otel-elk)  
+- [Observability with OpenTelemetry and OpenSearch](https://github.com/Javier-Godon/observability-otel-opensearch)  
+- [Microservices Observability with OpenTelemetry Java Instrumentation](https://github.com/Javier-Godon/microservices-opentelemetry-java-instrumentation)
+
+
+## Guides
 
 #### Deploy Oracle Express on Ubuntu
 This repository provides a comprehensive guide on deploying Oracle Express on **Ubuntu 22.04**. It includes step-by-step instructions and configurations to ensure a smooth setup process.
@@ -81,7 +90,16 @@ This repository provides a comprehensive guide on deploying Oracle Express on **
   - Covers common troubleshooting tips.
   - Offers scripts for automating parts of the setup.
 
-Whether you're exploring Oracle Express or need a reliable setup reference, this guide is designed to save time and effort.  
+Whether you're exploring Oracle Express or need a reliable setup reference, this guide is designed to save time and effort. 
+
+## KCL: Docker-compose Schemas
+
+One of my learning practices with KCL has been developing schemas to [validate and generate `docker-compose` manifests](https://github.com/Javier-Godon/learning-kcl-lang). You can use these schemas if you're deploying directly with Docker instead of Kubernetes and want to experiment with the language or use them as a foundation for generating and validating your `docker-compose` files.
+
+## Learning
+
+- **[GoLang](https://github.com/Javier-Godon/learning-golang)**
+- **[Elixir](https://github.com/Javier-Godon/learning-elixir)**
 
 
 
